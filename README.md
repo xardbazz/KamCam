@@ -22,9 +22,9 @@ The installer copies KamCam under Program Files, creates shortcuts, and can regi
 ### Portable ZIP
 
 1. Download **KamCam-v1.0.0-Windows.zip** and extract it to a folder you can write to, such as Documents or a USB drive.
-2. Open the extracted folder, then run **KamCam\\KamCam.exe**. No local app installation is needed.
-3. The preview and desktop controls work from the extracted folder. To add the Windows virtual cameras, open an Administrator PowerShell in the extracted **Camera** folder and run **Set-ExecutionPolicy -Scope Process Bypass**, then **.\\Install-KamCamCamera.ps1**.
-4. To remove the cameras, run **.\\Install-KamCamCamera.ps1 -Uninstall** from the same Administrator PowerShell. You can then remove the extracted folder.
+2. Open the extracted folder, then run **KamCam\KamCam.exe**. No local app installation is needed.
+3. The preview and desktop controls work from the extracted folder. To add the Windows virtual cameras, open an Administrator PowerShell in the extracted **Camera** folder and run **Set-ExecutionPolicy -Scope Process Bypass**, then **.\Install-KamCamCamera.ps1**.
+4. To remove the cameras, run **.\Install-KamCamCamera.ps1 -Uninstall** from the same Administrator PowerShell. You can then remove the extracted folder.
 
 ## Install and pair the phone
 
